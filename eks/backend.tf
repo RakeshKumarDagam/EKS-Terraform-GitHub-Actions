@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "mern-stack-demo"
+    bucket         = "probpm-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "dynamodb-file"
+    dynamodb_table = "dynamodb_table"
     encrypt        = true
   }
 }
