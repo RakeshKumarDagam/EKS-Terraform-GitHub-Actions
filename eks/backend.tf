@@ -10,7 +10,7 @@ terraform {
     bucket         = "probpmbucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "dynamodb_table"
+    dynamodb_table = "dynamodb_file"
     encrypt        = true
   }
 }
