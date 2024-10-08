@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "probpm-bucket"
+    bucket         = "probpmbucket"
     region         = "us-east-1d"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "dynamodb_table"
