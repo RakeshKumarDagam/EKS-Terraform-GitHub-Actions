@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: 'https://github.com/anshumaan-10/EKS-Terraform-GitHub-Actions.git'
+                git branch: 'master', url: 'https://github.com/RakeshKumarDagam/EKS-Terraform-GitHub-Actions.git'
             }
         }
         stage('Init') {
